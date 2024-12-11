@@ -8,4 +8,5 @@ export default defineConfig({
       external: ['react-tilt'], // Externalize react-tilt
     },
   },
+  base: '/MyPortfolio/',
 });
