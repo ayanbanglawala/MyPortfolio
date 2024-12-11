@@ -128,7 +128,7 @@ const experiences = [
     company_name: "SNM Techcraft Innovation",
     icon: snm,
     iconBg: "#E6DEDD",
-    date: "Jan 2025 - Present",
+    date: "Jan 2021 - Feb 2022",
     points: [
       "Building and maintaining scalable and efficient web applications using the MERN stack (MongoDB, Express.js, React.js, and Node.js).",
       "Collaborating with designers and product teams to develop user-friendly and visually appealing interfaces.",
