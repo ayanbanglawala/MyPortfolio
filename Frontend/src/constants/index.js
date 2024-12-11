@@ -27,8 +27,8 @@ import {
 } from "../assets";
 import cienciaslogo from "../assets/cienciaslogo.png"
 import snm from "../assets/cropped-SNM-.webp"
-import ww from "../assets/WW.png"
-import MyChat from "../assets/MyCHat.png"
+import ww from "../assets/WW.PNG"
+import MyChat from "../assets/MyCHat.PNG"
 import news from "../assets/news.png"
 
 
