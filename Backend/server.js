@@ -18,11 +18,17 @@ app.use(cors({
 }));
 
 // Serve static files from the "dist" folder
-app.use(express.static(path.join(__dirname, "Frontend", "dist")));
+app.use(express.static(path.join(__dirname, "..", "Frontend", "dist")));
 
 // Fallback for any other route to serve index.html
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "Frontend", "dist", "index.html"));
+  res.sendFile(path.join(__dirname, "..", "Frontend", "dist", "index.html"));
+});
+
+// Handle 404s before the fallback
+app.use((req, res, next) => {
+  res.status(404).json({ message: "Page not found" });
+  next();
 });
 
 // Start the server
